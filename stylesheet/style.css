@@ -14,7 +14,7 @@ body {
 }
 
 
-.main {
+#swup {
     background-color: rgb(238, 230, 221);
     width: 93vw;
     height: 90vh;
@@ -70,5 +70,9 @@ a {
     grid-area: 3/2;
     color: #0047bb;
     font-size: 2em;
+
+}
+.hero{
+    display: grid;
 
 }
