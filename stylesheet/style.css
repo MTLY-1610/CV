@@ -1,12 +1,11 @@
-
 html,
 body {
     height: 100vh;
     margin: 0;
-    
 
 }
-.grid{
+
+.grid {
     width: 100vw;
     height: 100vh;
     display: grid;
@@ -15,14 +14,14 @@ body {
 }
 
 
-.main{
+.main {
     background-color: rgb(238, 230, 221);
     width: 93vw;
     height: 90vh;
-    grid-area: 2/2 ;
-    
-    
+    grid-area: 2/2;
+
 }
+
 .menu_top {
     display: flex;
     width: 20vw;
@@ -38,7 +37,7 @@ body {
 
 a {
     font-family: Alegreya;
-    color:  #0047bb;
+    color: #0047bb;
     text-decoration: none;
     font-size: smaller;
 }
@@ -54,17 +53,22 @@ a {
     font-size: 1.3em;
     grid-area: 2/3;
     color: #fe5000;
-    
+
 }
+
+#or {
+    color: #fe5000;
+}
+
 .menu_bottom {
     width: 10vw;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   margin-left: 45%;
+    margin-left: 45%;
     align-items: center;
     grid-area: 3/2;
-    color: #006845;
+    color: #0047bb;
     font-size: 2em;
 
 }
