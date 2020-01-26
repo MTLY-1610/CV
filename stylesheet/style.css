@@ -50,7 +50,7 @@ body {
 
 .menu_bottom {
     display: flex;
-    width: 380px;
+    width: 440px;
     justify-content: space-evenly;
     align-items: center;
     grid-area: 3/2;
@@ -131,7 +131,8 @@ span :hover {
     color: white;
 }
 #name{
-    background-color:  #0047bb;
+    background-color:  #FCE300;
+    padding: 1.5px 16px 1.5px 16px;
     color: white;
 }
 #address{
@@ -241,7 +242,7 @@ p {
     flex-direction: column;
 }
 .name_kontakt {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: ;
 
 }
@@ -257,6 +258,7 @@ p {
     font-size: 0.8rem;
     color: ;
     margin-top: 0.5rem;
+    text-decoration: none;
 
 
 }
