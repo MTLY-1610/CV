@@ -1,7 +1,17 @@
 html,
 body {
-    margin: 0;
+    margin: 0rem;
     font-family: 'Nova Mono', monospace;
+    
+}
+
+.grid {
+    width: 100vw;
+    height: 100vh;
+    margin: 0rem;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows:50px auto 50px;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     /* Firefox */
@@ -11,65 +21,105 @@ body {
     /* Opera */
 }
 
-.grid {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 50px auto 50px;
-    grid-template-rows:50px auto 50px;
-}
 /* -------------MENU---------------------------------------------------------------------------*/
+
+.menu_wrapper_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1/2;
+}
+
 .menu_top {
     display: flex;
-    width: 20vw;
-    margin-left: 35vw;
+    width: 300px;
     justify-content: space-evenly;
-    font-family: 'Nova Mono', monospace;
+    align-items: center;
     grid-area: 1/2;
     color: red;
     font-size: 1.1em;
-    
 }
 
-.menu_bottom {
-    width: 10vw;
+.menu_wrapper_right {
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-left: 45%;
+    justify-content: center;
     align-items: center;
-    grid-area: 3/2;
-    color: #0047bb;
-    font-size: 2em;
+    grid-area: 2/3;
 }
 
 .menu_right {
-    height: 10vh;
+    height: 120px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 40vh;
     align-items: center;
     font-size: 1.1em;
     grid-area: 2/3;
-    background-color: #fe5000;
-    color: white;
+    color:  #fe5000;
+}
+
+.menu_wrapper_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2/1;
 }
 
 .menu_left {
-    height: 4vh;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: 46vh;
     align-items: center;
     font-size: 1.1em;
     grid-area: 2/1;
-    background-color: #fe5000;
-    color: white;
+    color:  #fe5000;
+}
+
+/* -------------IKONS &LINKS---------------------------------------------------------------------------*/
+
+span {
+    font-family: 'Nova Mono', monospace;
+    text-decoration: none;
+    font-size: smaller;
+    padding: 1px 3px 1px 3px;
+    color: red;
+}
+#social{
+    font-size: 1.5rem;
+    color: red;
+    
 
 }
+
+#social :hover{
+    color: #0047bb;;
+
+}
+
+span :hover {
+    background-color: red;
+    padding: 1px 3px 1px 3px;
+    border: red 1px;
+    border-radius: 2px;
+    color: white;
+}
+
+#or {
+    color: #fe5000;
+}
+
+#hej {
+    font-size: 2.75rem;
+    color: #0047bb;
+}
+#hej:hover {
+    
+    color: red;
+}
+
 /* -------------MAIN---------------------------------------------------------------------------*/
+
 #swup {
     display: flex;
     align-items: center;
@@ -81,13 +131,17 @@ body {
     opacity: 1;
     flex-direction: row;
 }
+
 /* -------------OMOSS---------------------------------------------------------------------------*/
+
 .wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     text-align: center;
-    width: 100vw;
+    width: 100%;
+    height: 100%;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     /* Firefox */
@@ -110,9 +164,8 @@ p {
     /* Opera */
 }
 
-
-
 /* -------------HEMMA---------------------------------------------------------------------------*/
+
 .hero {
     display: flex;
     align-items: center;
@@ -128,21 +181,12 @@ p {
 }
 
 .hero_logo {
-    height: 65vh;
+    width: 90vw;
+    
 }
 
-a {
-    font-family: 'Nova Mono', monospace;
-    text-decoration: none;
-    font-size: smaller;
-}
-
-a:hover {
-    background-color: red;
-    padding: 2px 2px 2px 2px;
-    color: white;
-}
 /* -------------KONTAKT---------------------------------------------------------------------------*/
+
 .main_kontakt {
     display: flex;
     flex-direction: row;
@@ -164,20 +208,8 @@ a:hover {
     flex-direction: column;
 }
 
-i:hover {
-    background-color: #fe5000;
-    color: white;
-}
-
-#or {
-    color: #fe5000;
-}
-
-#hej {
-    font-size: 3.75rem;
-    color: #0047bb;
-}
 /* -------------FADE-IN---------------------------------------------------------------------------*/
+
 @keyframes fadein {
     from {
         opacity: 0;
