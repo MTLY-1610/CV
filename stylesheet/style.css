@@ -108,7 +108,7 @@ span {
     font-family: 'Nova Mono', monospace;
     text-decoration: none;
     font-size: smaller;
-    padding: 1px 3px 1px 3px;
+    padding: 1px 5px 1px 5px;
     
 }
 #social{
@@ -240,6 +240,33 @@ p {
     display: flex;
     flex-direction: column;
 }
+.name_kontakt {
+    font-size: 1.2rem;
+    color: ;
+
+}
+
+.jobb { 
+    font-size: 1rem;
+    color: ;
+
+
+}
+
+.mail_kontakt {
+    font-size: 0.8rem;
+    color: ;
+    margin-top: 0.5rem;
+
+
+}
+
+.tel_kontakt {
+    font-size: 0.8rem;
+    color: ;
+
+}
+
 
 /* -------------FADE-IN---------------------------------------------------------------------------*/
 
