@@ -36,10 +36,37 @@ body {
     justify-content: space-evenly;
     align-items: center;
     grid-area: 1/2;
+    color: #fe5000;
+    font-size: 1.1em;
+    margin-top: 0.8rem;
+}
+.menu_wrapper_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3/2;
+    margin-bottom: 0.8rem;
+}
+
+.menu_bottom {
+    display: flex;
+    width: 380px;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: 3/2;
+    color: #0047bb;
+    font-size: 0.8em;
+}
+
+.menu_top {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: 1/2;
     color: red;
     font-size: 1.1em;
 }
-
 .menu_wrapper_right {
     display: flex;
     justify-content: center;
@@ -66,7 +93,6 @@ body {
 }
 
 .menu_left {
-    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -83,11 +109,11 @@ span {
     text-decoration: none;
     font-size: smaller;
     padding: 1px 3px 1px 3px;
-    color: red;
+    
 }
 #social{
-    font-size: 1.5rem;
-    color: red;
+    font-size: 1.3rem;
+    color: #fe5000;
     
 
 }
@@ -98,11 +124,18 @@ span {
 }
 
 span :hover {
-    background-color: red;
+    background-color: #fe5000;
     padding: 1px 3px 1px 3px;
     border: red 1px;
-    border-radius: 2px;
+    border-radius: 0px;
     color: white;
+}
+#name{
+    background-color:  #0047bb;
+    color: white;
+}
+#address{
+    color: #fe5000;
 }
 
 #or {
