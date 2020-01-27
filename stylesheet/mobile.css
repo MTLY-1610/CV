@@ -1,0 +1,317 @@
+@media only screen and (max-width: 49.50em) {
+html,
+body {
+    margin: 0rem;
+    font-family: 'Nova Mono', monospace;
+    
+}
+
+.grid {
+    width: 100vw;
+    height: 100vh;
+    margin: 0rem;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows:50px auto 50px;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+
+/* -------------MENU---------------------------------------------------------------------------*/
+
+.menu_wrapper_top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 1/2;
+}
+
+.menu_top {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: 1/2;
+    color: #fe5000;
+    font-size: 1.1em;
+    margin-top: 0.8rem;
+}
+.menu_wrapper_bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 3/2;
+    margin-bottom: 0.8rem;
+}
+
+.menu_bottom {
+    display: flex;
+    width: 440px;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: 3/2;
+    color: #0047bb;
+    font-size: 0.8em;
+}
+
+.menu_top {
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+    grid-area: 1/2;
+    color: red;
+    font-size: 1.1em;
+}
+.menu_wrapper_right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2/3;
+}
+
+.menu_right {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1em;
+    grid-area: 2/3;
+    color:  #fe5000;
+}
+
+.menu_wrapper_left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: 2/1;
+}
+
+.menu_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 1.1em;
+    grid-area: 2/1;
+    color:  #fe5000;
+}
+
+/* -------------IKONS &LINKS---------------------------------------------------------------------------*/
+
+span {
+    font-family: 'Nova Mono', monospace;
+    text-decoration: none;
+    font-size: smaller;
+    padding: 1px 5px 1px 5px;
+    
+}
+#social{
+    font-size: 1.3rem;
+    color: #fe5000;
+    
+
+}
+
+#social :hover{
+    color: #0047bb;;
+
+}
+
+span :hover {
+    background-color: #fe5000;
+    padding: 1px 3px 1px 3px;
+    border: red 1px;
+    border-radius: 0px;
+    color: white;
+}
+#name{
+    background-color:  #FCE300;
+    padding: 1.5px 16px 1.5px 16px;
+    color: white;
+}
+#address{
+    color: #fe5000;
+}
+
+#or {
+    color: #fe5000;
+}
+
+#hej {
+    font-size: 2.75rem;
+    color: #0047bb;
+}
+#hej:hover {
+    
+    color: red;
+}
+
+/* -------------MAIN---------------------------------------------------------------------------*/
+
+#swup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    grid-area: 2/2;
+    opacity: 1;
+    flex-direction: row;
+}
+
+/* -------------OMOSS---------------------------------------------------------------------------*/
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+
+p {
+    width: 70vw;
+    font-size: 2rem;
+    color: #0047bb;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+
+/* -------------HEMMA---------------------------------------------------------------------------*/
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90vw;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+
+.hero_logo {
+    width: 90vw;
+    
+}
+
+/* -------------KONTAKT---------------------------------------------------------------------------*/
+
+.main_kontakt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70vw;
+    font-size: 1.5rem;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+
+.wrapper_kontakt {
+    display: flex;
+    flex-direction: column;
+}
+.name_kontakt {
+    font-size: 1.1rem;
+
+}
+
+.jobb { 
+    font-size: 1rem;
+
+
+}
+
+.mail_kontakt {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    text-decoration: none;
+
+
+}
+
+.tel_kontakt {
+    font-size: 0.8rem;
+
+}
+
+
+/* -------------FADE-IN---------------------------------------------------------------------------*/
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+}

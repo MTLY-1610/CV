@@ -187,7 +187,7 @@ span :hover {
 
 p {
     width: 70vw;
-    font-size: 3rem;
+    font-size: 3vw;
     color: #0047bb;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
@@ -243,20 +243,18 @@ p {
 }
 .name_kontakt {
     font-size: 1.1rem;
-    color: ;
+    color: white;
 
 }
 
 .jobb { 
     font-size: 1rem;
-    color: ;
 
 
 }
 
 .mail_kontakt {
     font-size: 0.8rem;
-    color: ;
     margin-top: 0.5rem;
     text-decoration: none;
 
@@ -265,7 +263,6 @@ p {
 
 .tel_kontakt {
     font-size: 0.8rem;
-    color: ;
 
 }
 
