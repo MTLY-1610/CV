@@ -10,7 +10,7 @@ function kontakt() {
   document.getElementById("swup").innerHTML = "<div id='k' class='main_kontakt'><div class='wrapper_kontakt'><div class='name_kontakt'><h3>EMMA LARROUY</h3></div><div class='jobb'>Arkitekt SAR/MSA</div><div class='mail_kontakt'><a href='mailto:emma@juta-arkitekter.se?cc=magdalena.keller@gmail.com&amp;subject=Till%20Keller%20from%20site'>emma@juta-arkitekter.se </a></div><div class='tel_kontakt'>Tel 070-879 96 03</div></div><div class='wraper_kontakt'><div class='name_kontakt'><h3>PETER SELSVIK</h3></div><div class='jobb'>Byggnadsingenjör</div><div class='mail_kontakt'><a href='mailto:emma@juta-arkitekter.se?cc=peter.selsvik@telia.com&amp;subject=till%20Peter%20from%20site'>peter@juta-arkitekter.se</a></div></div><div class='wraper_kontakt'><div class='name_kontakt'><h3>MAGDALENA KELLER</h3></div><div class='jobb'>Koncept & Inredningsdesigner</div><div class='mail_kontakt'><a href='mailto:emma@juta-arkitekter.se?cc=magdalena.keller@gmail.com&amp;subject=Till%20Keller%20from%20site'>magdalena@juta-arkitekter.se</a></div><div class='tel_kontakt'>Tel 070-471 40 24</div></div></div>";
 }
 function menuMobile() {
-  document.getElementById("swup").innerHTML = "<div class='mobileMenu'><div class='mobileMenuTitle'>HEMMA</div><div class='mobileMenuTitle'><a id='topMenu' onclick='omoss()'>OM OSS</a></div><div class='mobileMenuTitle'>KONTAKT</div> </div>";
+  document.getElementById("swup").innerHTML = "<div class='mobileMenu'><div class='mobileMenuTitle'><a onclick='hemma()'>HEMMA</a></div><div class='mobileMenuTitle'><a onclick='omoss()'>OM OSS</a></div><div class='mobileMenuTitle'><a onclick='kontakt()'>KONTAKT</a></div> </div>";
 }
 
 

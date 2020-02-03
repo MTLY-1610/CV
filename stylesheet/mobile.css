@@ -132,10 +132,12 @@ span :hover {
 }
 #name{
     background-color:  #FCE300;
+    margin-top: 10px;
     padding: 1.5px 16px 1.5px 16px;
     color: white;
 }
 #address{
+    display: none ;
     color: #fe5000;
 }
 
@@ -150,7 +152,7 @@ span :hover {
     color: red;
 }
 #burger{
-    
+    background-color:#fe5000;
     color: #fe5000;
 }
 
@@ -169,7 +171,29 @@ span :hover {
 }
 
 /* -------------MOBILEMENU---------------------------------------------------------------------------*/
-
+.mobileMenu{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+.mobileMenuTitle{
+    display: flex;
+    font-size: 1.5rem;
+    color: #0047bb;
+}
+.mobileMenuTitle :hover{
+    font-size: 1.5rem;
+    color: white;
+}
 
 /* -------------OMOSS---------------------------------------------------------------------------*/
 
