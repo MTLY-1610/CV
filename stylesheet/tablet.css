@@ -1,26 +1,19 @@
 @media only screen and (max-width: 75.43em) and (min-width: 49.40em) {
 html,
 body {
-    margin: 0rem;
-    font-family: 'Nova Mono', monospace;
-    
-}
-
-.grid {
-    width: 100vw;
-    height: 100vh;
-    margin: 0rem;
-    display: grid;
-    grid-template-columns: 50px auto 50px;
-    grid-template-rows:50px auto 50px;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s;
-    /* Firefox */
-    -webkit-animation: fadein 2s;
-    /* Safari and Chrome */
-    -o-animation: fadein 2s;
-    /* Opera */
-}
+        font-family: 'Nova Mono', monospace;
+        margin: 0;
+        position: fixed;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        display: grid;
+        grid-template-columns: 35px auto 35px;
+        grid-template-rows: 35px auto 35px;
+        -webkit-transform: translateZ (0);
+    }
 
 /* -------------MENU---------------------------------------------------------------------------*/
 
@@ -152,14 +145,18 @@ span :hover {
     
     color: red;
 }
+#burger{
+    display: none;
+}
 
 /* -------------MAIN---------------------------------------------------------------------------*/
 
 #swup {
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color:#e2acd7;
     width: 100%;
     height: 100%;
     grid-area: 2/2;
@@ -188,7 +185,7 @@ span :hover {
 
 p {
     width: 70vw;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: #0047bb;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
@@ -244,26 +241,20 @@ p {
 }
 .name_kontakt {
     font-size: 1.1rem;
-
 }
 
 .jobb { 
     font-size: 1rem;
-
-
 }
 
 .mail_kontakt {
     font-size: 0.8rem;
     margin-top: 0.5rem;
     text-decoration: none;
-
-
 }
 
 .tel_kontakt {
     font-size: 0.8rem;
-
 }
 
 
@@ -316,3 +307,4 @@ p {
 
 }
 
+}

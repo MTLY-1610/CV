@@ -1,25 +1,19 @@
 html,
 body {
-    margin: 0rem;
     font-family: 'Nova Mono', monospace;
-    
+    margin: 0;
+    position: fixed;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 35px auto 35px;
+    grid-template-rows: 35px auto 35px;
+    -webkit-transform: translateZ (0);
 }
 
-.grid {
-    width: 100vw;
-    height: 100vh;
-    margin: 0rem;
-    display: grid;
-    grid-template-columns: 50px auto 50px;
-    grid-template-rows:50px auto 50px;
-    animation: fadein 2s;
-    -moz-animation: fadein 2s;
-    /* Firefox */
-    -webkit-animation: fadein 2s;
-    /* Safari and Chrome */
-    -o-animation: fadein 2s;
-    /* Opera */
-}
 
 /* -------------MENU---------------------------------------------------------------------------*/
 
@@ -40,6 +34,7 @@ body {
     font-size: 1.1em;
     margin-top: 0.8rem;
 }
+
 .menu_wrapper_bottom {
     display: flex;
     justify-content: center;
@@ -67,6 +62,7 @@ body {
     color: red;
     font-size: 1.1em;
 }
+
 .menu_wrapper_right {
     display: flex;
     justify-content: center;
@@ -82,7 +78,7 @@ body {
     align-items: center;
     font-size: 1.1em;
     grid-area: 2/3;
-    color:  #fe5000;
+    color: #fe5000;
 }
 
 .menu_wrapper_left {
@@ -99,57 +95,70 @@ body {
     align-items: center;
     font-size: 1.1em;
     grid-area: 2/1;
-    color:  #fe5000;
+    color: #fe5000;
 }
 
 /* -------------IKONS &LINKS---------------------------------------------------------------------------*/
 
-span {
+#topMenuIcons {
     font-family: 'Nova Mono', monospace;
     text-decoration: none;
     font-size: smaller;
     padding: 1px 5px 1px 5px;
-    
-}
-#social{
-    font-size: 1.3rem;
     color: #fe5000;
-    
 
 }
-
-#social :hover{
-    color: #0047bb;;
-
-}
-
-span :hover {
+#topMenuIcons :hover {
     background-color: #fe5000;
     padding: 1px 3px 1px 3px;
-    border: red 1px;
+    
     border-radius: 0px;
     color: white;
 }
-#name{
-    background-color:  #FCE300;
+#smiley{
+    color:#FCE300;
+}
+
+#social {
+    font-size: 1.3rem;
+    color: #fe5000;
+
+
+}
+
+#social :hover {
+    color: #0047bb;
+    ;
+
+}
+
+
+
+#name {
+    background-color: #FCE300;
     padding: 1.5px 16px 1.5px 16px;
     color: white;
 }
-#address{
+
+#address {
     color: #fe5000;
 }
 
-#or {
-    color: #fe5000;
-}
+
 
 #hej {
     font-size: 2.75rem;
     color: #0047bb;
 }
+
 #hej:hover {
-    
+
     color: red;
+}
+
+#burger {
+    display: none;
+    color: #fe5000;
 }
 
 /* -------------MAIN---------------------------------------------------------------------------*/
@@ -164,6 +173,13 @@ span :hover {
     grid-area: 2/2;
     opacity: 1;
     flex-direction: row;
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
 }
 
 /* -------------OMOSS---------------------------------------------------------------------------*/
@@ -186,7 +202,7 @@ span :hover {
 }
 
 p {
-    width: 70vw;
+    width: 60vw;
     font-size: 3vw;
     color: #0047bb;
     animation: fadein 2s;
@@ -215,8 +231,7 @@ p {
 }
 
 .hero_logo {
-    width: 90vw;
-    
+    width: 100%;
 }
 
 /* -------------KONTAKT---------------------------------------------------------------------------*/
@@ -241,13 +256,14 @@ p {
     display: flex;
     flex-direction: column;
 }
+
 .name_kontakt {
     font-size: 1.1rem;
     color: white;
 
 }
 
-.jobb { 
+.jobb {
     font-size: 1rem;
 
 
