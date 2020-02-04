@@ -108,7 +108,7 @@ body {
     color: white;
 }
 #smiley{
-    color:#FCE300;
+    color:#0047bb;
 }
 
 #social{
@@ -123,13 +123,6 @@ body {
 
 }
 
-span :hover {
-    background-color: #fe5000;
-    padding: 1px 3px 1px 3px;
-    border: red 1px;
-    border-radius: 0px;
-    color: white;
-}
 #name{
     background-color:  #FCE300;
     margin-top: 10px;
@@ -152,9 +145,10 @@ span :hover {
     color: red;
 }
 #burger{
-    background-color:#fe5000;
+    
     color: #fe5000;
 }
+
 
 /* -------------MAIN---------------------------------------------------------------------------*/
 
@@ -190,8 +184,8 @@ span :hover {
     font-size: 1.5rem;
     color: #0047bb;
 }
-.mobileMenuTitle :hover{
-    font-size: 1.5rem;
+.mobileMenuTitle:hover{
+   
     color: white;
 }
 
@@ -251,7 +245,7 @@ p {
 .main_kontakt {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     width: 70vw;
     font-size: 1.5rem;
@@ -264,31 +258,47 @@ p {
     /* Opera */
 }
 
-.wrapper_kontakt {
+.wrapper_kontakt{
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
+
 .name_kontakt {
+    display: flex;
     font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .jobb { 
+    display: flex;
     font-size: 1rem;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .mail_kontakt {
+    display: flex;
     font-size: 0.8rem;
     margin-top: 0.5rem;
     text-decoration: none;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 .tel_kontakt {
+    display: flex;
     font-size: 0.8rem;
+    justify-content: center;
+    align-items: center;
 
 }
 
