@@ -34,14 +34,14 @@ body {
     grid-area: 1/2;
     color: #fe5000;
     font-size: 1em;
-    margin-top: 0.8rem;
+    margin-top: 0.2rem;
 }
 .menu_wrapper_bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     grid-area: 3/2;
-    margin-bottom: 0.8rem;
+   
 }
 
 .menu_bottom {
@@ -52,6 +52,7 @@ body {
     grid-area: 3/2;
     color: #0047bb;
     font-size: 0.8em;
+    margin-bottom: 0.8rem;
 }
 
 
@@ -108,7 +109,7 @@ body {
     color: white;
 }
 #smiley{
-    color:#0047bb;
+    display: none;
 }
 
 #social{
@@ -146,7 +147,15 @@ body {
 }
 #burger{
     
-    color: #fe5000;
+    color: white;
+    background-color:#0047bb ;
+    padding: 0px 15px 0px 15px;
+}
+#burger :hover{
+    opacity: 0.3;
+}
+.fad fa-smile{
+    /* margin-right: 5px; */
 }
 
 
@@ -237,7 +246,8 @@ p {
 }
 
 .hero_logo {
-    width:60vw;    
+    width:60vw;
+    /* rotate: 90;     */
 }
 
 /* -------------KONTAKT---------------------------------------------------------------------------*/
