@@ -32,7 +32,7 @@ body {
     grid-area: 1/2;
     color: #fe5000;
     font-size: 1.1em;
-    margin-top: 0.8rem;
+    margin-top: 0.2rem;
 }
 
 .menu_wrapper_bottom {
@@ -40,12 +40,12 @@ body {
     justify-content: center;
     align-items: center;
     grid-area: 3/2;
-    margin-bottom: 0.8rem;
+    margin-bottom: 0.1rem;
 }
 
 .menu_bottom {
     display: flex;
-    width: 440px;
+    width: 500px;
     justify-content: space-evenly;
     align-items: center;
     grid-area: 3/2;
@@ -89,6 +89,7 @@ body {
 }
 
 .menu_left {
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -142,6 +143,7 @@ body {
 
 #address {
     color: #fe5000;
+    margin-left: 50px;
 }
 
 
@@ -203,7 +205,7 @@ body {
 
 p {
     width: 60vw;
-    font-size: 3vw;
+    font-size: 3rem;
     color: #0047bb;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
@@ -233,14 +235,28 @@ p {
 .hero_logo {
     width: 100%;
 }
+.mobile_logo1{
+    display: none;
+    width: 60vw;
 
+}
+.mobile_logo2{
+    display: none;
+    width: 60vw;
+  
+}
+.mobile_logo3{
+    display: none;
+    width: 60vw;
+  
+}
 /* -------------KONTAKT---------------------------------------------------------------------------*/
 
 .main_kontakt {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    /* align-items: center; */
     width: 70vw;
     font-size: 1.5rem;
     animation: fadein 2s;
@@ -255,29 +271,43 @@ p {
 .wrapper_kontakt {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .name_kontakt {
+    display: flex;
+    justify-content: center;
+        align-items: center;
     font-size: 1.1rem;
     color: white;
 
 }
 
 .jobb {
+    display: flex;
+    justify-content: center;
+        align-items: center;
     font-size: 1rem;
 
 
 }
 
 .mail_kontakt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 0.8rem;
     margin-top: 0.5rem;
-    text-decoration: none;
+    text-decoration: none!important;
 
 
 }
 
 .tel_kontakt {
+    display: flex;
+    justify-content: center;
+        align-items: center;
     font-size: 0.8rem;
 
 }

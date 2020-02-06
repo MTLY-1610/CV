@@ -1,6 +1,6 @@
 
 function hemma() {
-  document.getElementById("swup").innerHTML = "<img class='hero_logo' src='JUTA_logo_hero.svg'>";
+  document.getElementById("swup").innerHTML = "<div class='hero'><img draggable='false' class='hero_logo1' src='JUTA_logo_hero1.svg'><img draggable='false' class='mobile_logo' src='JUTA_logo_hero2.svg'><img draggable='false' class='hero_logo' src='JUTA_logo_hero3.svg'><img draggable='false' class='mobile_logo' src='JUTA_logo_hero4.svg'></div>";
 }
 
 function omoss() {
