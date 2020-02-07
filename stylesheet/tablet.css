@@ -206,8 +206,8 @@ body {
 }
 
 p {
-    width: 60vw;
-    font-size: 2.5rem;
+    width: 65vw;
+    font-size: 2.25rem;
     color: #0047bb;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
