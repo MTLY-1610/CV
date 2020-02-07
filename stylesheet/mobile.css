@@ -170,6 +170,9 @@
     #b {
         margin-left: 15px;
     }
+    .mobile_map{
+        display: none;
+    }
 
 
     /* -------------MAIN---------------------------------------------------------------------------*/
@@ -248,11 +251,11 @@
     /* -------------HEMMA---------------------------------------------------------------------------*/
 
     .hero {
-        height: 80%;
+        height: 70vh;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: space-evenly;
         animation: fadein 2s;
         -moz-animation: fadein 2s;
         /* Firefox */
@@ -262,26 +265,23 @@
         /* Opera */
     }
 
-    .hero_logo2 {
-        width: 60vw;
-        
-        /* rotate: 90;     */
-    }
-    .mobile_logo1{
+    .hero_logo {
         display: flex;
-        width: 60vw;
+        width: 70vw;
+        
+    }
+
+    .mobile_logo2{
+        display: flex;
+        width: 70vw;
     
     }
     .mobile_logo3{
         display: flex;
-        width: 60vw;
+        width: 70vw;
       
     }
-    .mobile_logo4{
-        display: flex;
-        width: 60vw;
-      
-    }
+    
 
 
     /* -------------KONTAKT---------------------------------------------------------------------------*/
