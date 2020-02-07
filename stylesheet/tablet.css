@@ -231,8 +231,25 @@ p {
     /* Opera */
 }
 
+
 .hero_logo {
+    width: 80%;
+    display: none;
+}
+.mobile_logo1{
+    display: none;
+    width: 60vw;
+
+}
+.mobile_logo2{
+    display: none;
+    width: 60vw;
+  
+}
+.mobile_logo3{
+    display: flex;
     width: 100%;
+  
 }
 
 /* -------------KONTAKT---------------------------------------------------------------------------*/
