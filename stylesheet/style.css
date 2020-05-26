@@ -252,9 +252,12 @@ p {
 
 
 /* -------------KONTAKT---------------------------------------------------------------------------*/
-
+.skills-container{
+    display: flex;
+    flex-direction: column;
+}
 .graph-cont{
-    width: calc(100% - 40px);
+    
     width: 100%;
     
     

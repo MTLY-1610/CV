@@ -7,7 +7,7 @@ function omoss() {
 }
 
 function skill() {
-  document.getElementById("swup").innerHTML = "<div id='o' class='wrapper'><div class='graph-cont'><h3>HTML5</h3><div class='bar bar1'></div></div><div class='graph-cont'><h3>CSS3</h3><div class='bar bar2'></div></div><div class='graph-cont'><h3>JAVASCRIPT</h3><div class='bar bar3'><div class='graph-cont'><h3>TYPESCRIPT</h3><div class='bar bar4'></div></div></div></div><div class='graph-cont'><h3>CSS3</h3><div class='bar bar5'></div></div></div>";
+  document.getElementById("swup").innerHTML = "<div id='o' class='wrapper'><div class='graph-cont'><h3>HTML5</h3><div class='bar bar1'></div></div>/div></div>";
 }
 function kontakt() {
   document.getElementById("swup").innerHTML = "<div class='chart-wrapper'></div><button onclick='replay()'>Replay</button></div>";
