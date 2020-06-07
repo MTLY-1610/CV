@@ -12,7 +12,5 @@ function skill() {
 function kontakt() {
   document.getElementById("swup").innerHTML = "<div class='wrapper'></div>";
 }
-function menuMobile() {
-  document.getElementById("swup").innerHTML = "<div class='mobileMenu'><div class='mobileMenuTitle'><a onclick='hemma()'>HEMMA</a></div><div class='mobileMenuTitle'><a onclick='omoss()'>OM OSS</a></div><div class='mobileMenuTitle'><a onclick='kontakt()'>KONTAKT</a></div> </div>";
-}
+
 

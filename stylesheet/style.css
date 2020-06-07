@@ -26,58 +26,57 @@ body {
     grid-area: 1/2;
 }
 
-
+.menu_top {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  
+    color: red;
+    font-size: 1em;
+    
+}
 
 .menu_wrapper_bottom {
     display: flex;
     justify-content: center;
     align-items: center;
     grid-area: 3/2;
+    width: 100%;
     margin-bottom: 0.1rem;
 }
 
 .menu_bottom {
     display: flex;
-    width: 100px;
+    width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    grid-area: 3/2;
     color: #0047bb;
     font-size: 0.8em;
 }
 
-.menu_top {
-    display: flex;
-    width: 100x;
-    justify-content: space-evenly;
-    align-items: center;
-    grid-area: 1/2;
-    color: red;
-    font-size: 1em;
-    margin-top: .2em;
-}
-
 .menu_wrapper_right {
     display: flex;
+    width: 100%;
     justify-content: center;
     align-items: center;
     grid-area: 2/3;
 }
 
 .menu_right {
-    height: 400px;
-  
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    height: 100%;
+    width: 100%;
+    font-size: 0.8em;
 }
 
 #skills{
-    transform: rotate(90deg);
- 
-    font-size: .7em;
-    color: #000000;
+    display: flex;
 
+    transform: rotate(90deg);
+    
 }
 
 .menu_wrapper_left {
@@ -88,14 +87,14 @@ body {
 }
 
 .menu_left {
-    height: 200px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    font-size: 1.1em;
-    
+    font-size: 1.1em; 
 }
+
 #about{
     transform: rotate(-90deg);
     position: absolute;
@@ -105,68 +104,8 @@ body {
 
 /* -------------IKONS &LINKS---------------------------------------------------------------------------*/
 
-#topMenuIcons {
-    font-family: titling-gothic-fb-extended, sans-serif;
-
-font-weight: 400;
-
-font-style: normal;
-    font-size: .7rem;
-    padding: 1px 5px 1px 5px;
-    color: black;
-
-}
-#topMenuIcons :hover {
-    background-color: #fe5000;
-    padding: 1px 3px 1px 3px;
-    
-    border-radius: 0px;
-    color: white;
-}
-#smiley{
-    color:#0047bb;
-}
-
-#social {
-    font-size: 1.3rem;
-    color: #fe5000;
-}
-
-#social :hover {
-    color: #0047bb;
-
-}
-
-#name {
-    background-color: #FCE300;
-    padding: 1.5px 16px 1.5px 16px;
-    color: white;
-}
-
-#address {
-    color: #fe5000;
-    margin-left: 50px;
-}
 
 
-
-#hej {
-    font-size: 2.75rem;
-    color: #0047bb;
-}
-
-#hej:hover {
-
-    color: red;
-}
-.mobile_map{
-    display: none;
-}
-
-#burger {
-    display: none;
-    color: #fe5000;
-}
 
 /* -------------MAIN---------------------------------------------------------------------------*/
 
@@ -183,19 +122,22 @@ font-style: normal;
     animation-name: color;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    
 }
+
 .hero_text{
+
+    display: flex;
     text-align: center;
     justify-content: center;
     font-family: titling-gothic-fb-extended, sans-serif;
+    width: 70vw;
     font-weight: 600;
     font-style: normal;
-    font-size: 8vw;
-    padding: 1px 5px 1px 5px;
+    font-size: 7vw;
+    /* padding: 1px 5px 1px 5px; */
     color: #0047bb;
-
 }
+
 /* -------------OMOSS---------------------------------------------------------------------------*/
 
 .wrapper {
@@ -234,7 +176,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 80vw;
+    width: 100%;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     /* Firefox */
@@ -244,17 +186,14 @@ p {
     /* Opera */
 }
 
-
-
 /* -------------SKILLS---------------------------------------------------------------------------*/
+
 #o {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     grid-area: 2/2;
-   
-   
     animation: fadein 2s;
     -moz-animation: fadein 2s;
     /* Firefox */
@@ -262,9 +201,7 @@ p {
     /* Safari and Chrome */
     -o-animation: fadein 2s;
     /* Opera */
-
 }
-
 
 .flexbox{
     display: flex;
@@ -273,6 +210,7 @@ p {
     align-items: center;
     justify-content: center;
 }
+
 .graph-cont{
     display: flex;
     flex-direction: column;
@@ -288,7 +226,6 @@ p {
     display: flex;
     height: 30px;
     width: 200px;
-   
     line-height: 30px;
     font-size: 16px;
     color: whitesmoke;
