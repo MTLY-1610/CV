@@ -166,8 +166,8 @@ p {
     font-size: 3vw;
     color: #0047bb;
     animation: fadein 2s;
-    text-justify: newspaper;
-    text-align: inherit;
+    text-justify: auto;
+    
     -moz-animation: fadein 2s;
     /* Firefox */
     -webkit-animation: fadein 2s;
@@ -439,15 +439,21 @@ p {
       -webkit-transform: translateZ (0);
       
   }
-  
-  
+  .wrapper{
+    display: flex;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+  }
   p {
+    display: flex;
       width: 75vw;
-      height: 70vh;
+      height: 90%;
+      align-items: center;
+      justify-content: center;
       font-size: 4vw;
       color: #0047bb;
-      text-justify: newspaper;
-    text-align: inherit;
+      
       animation: fadein 2s;
       -moz-animation: fadein 2s;
       /* Firefox */
