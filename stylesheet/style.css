@@ -167,7 +167,7 @@ p {
     color: #0047bb;
     animation: fadein 2s;
     text-justify: newspaper;
-    text-align: inherit
+    text-align: inherit;
     -moz-animation: fadein 2s;
     /* Firefox */
     -webkit-animation: fadein 2s;
@@ -422,7 +422,7 @@ p {
       background-color: #000023
       ;
     }
-    100 {
+    100% {
       background-color: black;
     }
   }
@@ -517,6 +517,32 @@ p {
       z-index: 2;
 
     }
+    .wrapper_kontakt {
+      display: flex;
+      width: 70%;
+      height:80% ;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  
+  
+  .icon_kontakt {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      height: 100%;
+    
+  }
+  .icon_kontakt > a {
+    color:white;
+    font-size: 20vw;
+  }
+  .icon_kontakt > a :hover {
+    color:lightblue;
+    
+  }
   }
 
  
