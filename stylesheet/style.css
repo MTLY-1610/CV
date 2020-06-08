@@ -442,9 +442,12 @@ p {
   
   
   p {
-      width: 70vw;
+      width: 75vw;
+      height: 70vh;
       font-size: 4vw;
       color: #0047bb;
+      text-justify: newspaper;
+    text-align: inherit;
       animation: fadein 2s;
       -moz-animation: fadein 2s;
       /* Firefox */
