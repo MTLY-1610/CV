@@ -24,6 +24,7 @@ body {
     justify-content: center;
     align-items: center;
     grid-area: 1/2;
+    
 }
 
 .menu_top {
@@ -31,9 +32,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-  
-    color: red;
-    font-size: 1em;
+    font-size: 0.8em;
     
 }
 
@@ -51,7 +50,7 @@ body {
     width: 100%;
     justify-content: space-evenly;
     align-items: center;
-    color: #0047bb;
+
     font-size: 0.8em;
 }
 
@@ -84,6 +83,7 @@ body {
     justify-content: center;
     align-items: center;
     grid-area: 2/1;
+    overflow: hidden;
 }
 
 .menu_left {
@@ -93,6 +93,9 @@ body {
     align-items: center;
     justify-content: space-evenly;
     font-size: 1.1em; 
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: pre;
 }
 
 #about{
@@ -220,8 +223,15 @@ p {
   }
   h3{
     text-align: center;
-    color: #0047bb;
+    color: white;
+    font-size: 1rem;
     font-weight: 100;
+    font-family: titling-gothic-fb-narrow, sans-serif;
+    
+font-weight: 300;
+
+font-style: italic;
+    
   }
   .bar{
     display: flex;
@@ -230,7 +240,7 @@ p {
     line-height: 30px;
     font-size: 16px;
     color: whitesmoke;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 0px;
     position: relative;
   }
   .bar::before{
@@ -245,7 +255,7 @@ p {
   }
   .bar::after{
     content: '';
-    background: red;
+    background: #fe5000;
     height: 20px;
     transition: 0.7s;
     display: block;
@@ -319,67 +329,37 @@ p {
 
 .wrapper_kontakt {
     display: flex;
-    width: 40%;
+    width: 70%;
     height:60% ;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #0047bb;
+    
 }
+
 .name_kontakt {
     display: flex;
-    justify-content: center;
-        align-items: center;
+    align-items: center;
     font-size: 1.1rem;
     background-color: #ecf0f1;
 
 }
 .icon_kontakt {
     display: flex;
-    justify-content: center;
-        align-items: center;
-    font-size: 1.1rem;
-    
-    color:white;
-
-}
-/* .name_kontakt {
-    display: flex;
-    justify-content: center;
-        align-items: center;
-    font-size: 1.1rem;
-    color: white;
-
-}
-
-.jobb {
-    display: flex;
-    justify-content: center;
-        align-items: center;
-    font-size: 1rem;
-
-
-}
-
-.mail_kontakt {
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    font-size: 0.8rem;
-    margin-top: 0.5rem;
-    text-decoration: none!important;
-
-
+    width: 100%;
+  
 }
-
-.tel_kontakt {
-    display: flex;
-    justify-content: center;
-        align-items: center;
-    font-size: 0.8rem;
-
-} */
-
+.icon_kontakt > a {
+  color:white;
+  
+  font-size: 10vw;
+}
+.icon_kontakt > a :hover {
+  color:lightblue;
+  transition: 10ms;
+}
 
 /* -------------FADE-IN---------------------------------------------------------------------------*/
 
@@ -445,7 +425,16 @@ p {
 
 
 /* On screens that are 600px or less, set o>column*/
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 550px) {
+  html,
+  body {
+      display: grid;
+      background-color: whitesmoke;
+      grid-template-columns: 25px auto 25px;
+      grid-template-rows: 25px auto 25px;
+      -webkit-transform: translateZ (0);
+      
+  }
     #o {
         display: flex;
         flex-direction: column;
@@ -455,6 +444,7 @@ p {
     }
     p {
         width: 70vw;
+        
         font-size: 4vw;
         color: #0047bb;
         animation: fadein 2s;
@@ -466,15 +456,18 @@ p {
         /* Opera */
     }
     h3{
-        font-size: 3vw;
+        font-size: 1rem;
         text-align: center;
-        color: #0047bb;
+       
       }
 
 
 .flexbox{
     display: flex;
     width: 100%;
+    height: 45%;
+    justify-content: space-around;
+    
 }
 .graph-cont{
     display: flex;
@@ -484,7 +477,8 @@ p {
   }
   h3{
     text-align: center;
-    color: #0047bb;
+    font-size: .6rem;
+    color: white;
   }
   .bar{
     display: flex;
@@ -508,7 +502,7 @@ p {
   }
   .bar::after{
     content: '';
-    background: red;
+    background: #fe5000;
     height: 10px;
     transition: 0.7s;
     display: block;
@@ -521,3 +515,5 @@ p {
   }
    
   }
+
+ 
