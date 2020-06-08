@@ -498,12 +498,12 @@ p {
       height: 10px;
       top: 0;
       z-index: 1;
-      background:coral; 
+      background:palevioletred; 
 
     }
     .bar::after{
       content: '';
-      background: ;
+     
       height: 10px;
       transition: 0.7s;
       display: block;
