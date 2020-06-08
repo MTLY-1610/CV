@@ -3,7 +3,7 @@ function hemma() {
   document.getElementById("swup").innerHTML = "<div class='hero'><div class='hero_text'>MATHIEU</br>LARROUY</div></div>";
 }
 function omoss() {
-  document.getElementById("swup").innerHTML = "<div  class='wrapper'><p>I am a french Art director,</br>now aspiring Front - end developer. I comme from Paris,  and now reside in Göteborg. After spending 10 years doing anything between graphic design and creative direction, I now decided to turn myself toward Front-end development an need a LIA ;)</p></div>";
+  document.getElementById("swup").innerHTML = "<div  class='wrapper'><p>I am a french Art director, now studying Front-end development. I come from Paris,  and now reside in Göteborg. After spending 10 years doing anything between graphic design and art direction, I now feel a need to turn myself toward Front-end development and therfore need a LIA :)</p></div>";
 }
 
 function skill() {
