@@ -441,6 +441,7 @@ font-style: italic;
         align-items: center;
         justify-content: center;
         width: 100%;
+        height: 80%;
     }
     p {
         width: 70vw;
@@ -465,27 +466,30 @@ font-style: italic;
 .flexbox{
     display: flex;
     width: 100%;
-    height: 45%;
+    height: 50%;
+    align-items: center;
     justify-content: space-around;
     
 }
 .graph-cont{
     display: flex;
+    /* height: 5%; */
     flex-direction: column;
     align-items: center;
+    
   
   }
   h3{
     text-align: center;
-    font-size: .6rem;
+    font-size: .8rem;
     color: white;
   }
   .bar{
     display: flex;
     height: 10px;
     width: 150px;
-    line-height: 30px;
-    font-size: 16px;
+    line-height: 20px;
+  
     color: whitesmoke;
     padding: 0 0 0 10px;
     position: relative;
