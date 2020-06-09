@@ -1,9 +1,9 @@
 
 function hemma() {
-  document.getElementById("swup").innerHTML = "<div class='hero'><div class='hero_text'>MATHIEU</br>LARROUY</div></div>";
+  document.getElementById("swup").innerHTML = "<div class='hero'><div class='hero_text'><div class='hero_name'>MATHIEU</div><div class='hero_last'>LARROUY</div></div></div>";
 }
 function omoss() {
-  document.getElementById("swup").innerHTML = "<div  class='wrapper'><p>I am a french Art director, now studying Front-end development. I come from Paris,  and now reside in Göteborg. After spending 10 years doing anything between graphic design and art direction, I now feel a need to turn myself toward Front-end development and therfore need a LIA :)</p></div>";
+  document.getElementById("swup").innerHTML = "<div  class='wrapper'><p>I am a french Art director, now studying Front-end development. I come from Bordeaux,  and live in Göteborg. After spending 10 years doing art direction,and seeing myself turning more and more toward e-marketing and UX-design, it now feels very natural to come to Front-end development. Therefore I enroled myself in the Medieinstitutet front en utväckling program which include two internship which is most likely the reason why you're in front of this very page today. </p></div>";
 }
 
 function skill() {
