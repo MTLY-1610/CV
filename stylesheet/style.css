@@ -336,10 +336,10 @@ p {
     max-width: 20%;
   }
   .bar8::after{
-    max-width: 80%;
+    max-width: 95%;
   }
   .bar9::after{
-    max-width: 50%;
+    max-width: 60%;
   }
   .bar10::after{
     max-width: 80%;
