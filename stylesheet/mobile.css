@@ -74,6 +74,7 @@
         font-size: 1.1em;
         grid-area: 2/3;
         color: #fe5000;
+        z-index: 100;
     }
 
     .menu_wrapper_left {
@@ -188,7 +189,25 @@
         opacity: 1;
         flex-direction: row;
     }
+    .hero{
+        width: 100px;
+    }
+    .hero_text{
 
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        font-family: titling-gothic-fb-extended, sans-serif;
+        width: 50vw;
+        height: 50vh;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 7vw;
+        /* padding: 1px 5px 1px 5px; */
+        color: #0047bb;
+    }
     /* -------------MOBILEMENU---------------------------------------------------------------------------*/
     .mobileMenu {
         height: 70%;
