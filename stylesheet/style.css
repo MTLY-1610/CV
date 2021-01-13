@@ -214,6 +214,7 @@ p {
     justify-content: space-around;
     align-items: center;
     width: 100%;
+    height: 90%;
     grid-area: 2/2;
     animation: fadein 2s;
     -moz-animation: fadein 2s;
@@ -453,12 +454,49 @@ p {
       -webkit-transform: translateZ (0);
       
   }
+  .hero{
+    display: flex;
+    height:50%;
+    width: 100%;
+    transform: rotate(-90deg);
+ 
+
+  }
+  .hero_name{
+    font-size: 2.6rem;
+  }
+  .hero_last{
+    font-size: 2.3rem;
+  }
+  /* .hero_text{
+    display:grid;
+    height: 90%;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+  }
+  .hero_name{
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    transform: rotate(-90deg);
+    font-size: 35px;
+  }
+  .hero_last{
+    text-align: center;
+    display: flex;
+    margin-bottom: 100px;
+    transform: rotate(90deg);
+    font-size: 35px;
+  } */
+
   .wrapper{
     display: flex;
     height:100%;
     align-items: center;
     justify-content: center;
   }
+ 
   p {
     display: flex;
       width: 75vw;
