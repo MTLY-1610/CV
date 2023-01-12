@@ -1,6 +1,6 @@
 
 function hemma() {
-  document.getElementById("swup").innerHTML = "<div class='hero'><div class='hero_text'><div class='hero_name'>new iteration</div><div class='hero_last'>SOON!!!!</div></div></div>";
+  document.getElementById("swup").innerHTML = "<div class='hero'><div class='hero_text'><div class='hero_name'></div><div class='hero_last'>SOON</div></div></div>";
 }
 function omoss() {
   document.getElementById("swup").innerHTML = "<div  class='wrapper'><p>I am a french Art director, now studying Front-end development. I come from Bordeaux,  and live in Göteborg. After spending 10 years doing art direction,and seeing myself turning more and more toward e-marketing and UX-design, it now feels very natural to come to Front-end development. Therefore I enroled myself in the Medieinstitutet Front-end utväckling program which include two internships which is most likely the reason why you're in front of this very page today. </p></div>";
